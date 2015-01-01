@@ -1,0 +1,23 @@
+{
+    "name": "irvind/mycustom",
+    "description": "",
+    "authors": [
+        {
+            "name": "Irvind",
+            "email": "irvind25@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Irvind\\Mycustom\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
